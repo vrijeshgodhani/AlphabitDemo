@@ -1,0 +1,178 @@
+.div1{
+    height: 100px;
+    width: 140px;
+    background-color: black;
+    border-radius: 15px;
+    margin-top: 0px;
+    margin-left: 100px;
+    float: left;
+    box-shadow: 0px 0px 60px coral;
+    cursor: pointer;
+
+}
+.div2{
+    height: 100px;
+    width: 600px;
+    background-color: red;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-left: 300px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 60px coral;
+
+
+}
+.div3{
+    height: 300px;
+    width: 140px;
+    background-color: orange;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 60px coral;
+    float: left;
+    margin-left: 100px;
+}
+.div4{
+    height: 130px;
+    width: 150px;
+    background-color: yellow;
+    margin-left: 65px;
+    border-radius: 15px;
+    cursor: pointer;
+    float: left;
+    box-shadow: 0px 0px 60px rgb(4, 245, 197);
+    margin-top: 30px;
+    animation: f_anim 3s;
+}
+
+.div5{
+    height: 130px;
+    width: 150px;
+    background-color: green;
+    margin-left: 70px;
+    float: left;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 60px rgb(4, 245, 197);
+    animation: f_anim 3s;
+
+}
+.div6{
+    height: 130px;
+    width: 150px;
+    cursor: pointer;
+    background-color: blue;
+    margin-left: 70px;
+    float: left;
+    border-radius: 15px;
+    box-shadow: 0px 0px 60px rgb(4, 245, 197);
+    animation: f_anim 3s;
+    margin-top: 30px;
+}
+.div7{
+    height: 130px;
+    width: 150px;
+    background-color: pink;
+    cursor: pointer;
+    border-radius: 15px;
+    animation: f_anim 3s;
+    float: left;
+    margin-top: 200px;
+    margin-left: -590px;
+    box-shadow: 0px 0px 60px rgb(4, 245, 197);
+
+
+}
+
+.div8{
+    height: 130px;
+    width: 150px;
+    cursor: pointer;
+    background-color: darkgrey;
+    border-radius: 15px;
+    float: left;
+    box-shadow: 0px 0px 60px rgb(4, 245, 197);
+    animation: f_anim 3s;
+    margin-top: 200px;
+    margin-left: -370px;
+}
+
+.div9{
+    height: 130px;
+    width: 150px;
+    background-color: mediumaquamarine;
+    border-radius: 15px;
+    float: left;
+    cursor: pointer;
+    margin-top: 200px;
+    box-shadow: 0px 0px 60px rgb(4, 245, 197);
+    animation: f_anim 3s;
+    margin-left: -150px;
+}
+
+.div10{
+    height: 70px;
+    width: 800px;
+    cursor: pointer;
+    background-color: brown;
+    margin-top: 350px;
+    box-shadow: 0px 0px 60px coral;
+    margin-left: 100px;
+    border-radius: 15px;
+}
+
+.div2:hover{
+    box-shadow: 0px 0px 50px black;
+    transition: 1.5s;
+}
+
+.div4:hover{
+    transform: scale(1.2,1.2);
+    transition: 1.5s;
+    box-shadow: 0px 0px 50px purple;
+
+}
+.div5:hover{
+    transform: scale(1.2,1.2);
+    transition: 1.5s;
+    box-shadow: 0px 0px 50px purple;
+
+}
+.div6:hover{
+    transform: scale(1.2,1.2);
+    transition: 1.5s;
+    box-shadow: 0px 0px 50px purple;
+
+}
+.div7:hover{
+    transform: scale(1.2,1.2);
+    transition: 1.5s;
+    box-shadow: 0px 0px 50px purple;
+
+}
+.div8:hover{
+    transform: scale(1.2,1.2);
+    transition: 1.5s;
+    box-shadow: 0px 0px 50px purple;
+
+}
+.div9:hover{
+    transform: scale(1.2,1.2);
+    transition: 1.5s;
+    box-shadow: 0px 0px 50px purple;
+
+}
+.div10:hover{
+    box-shadow: 0px 0px 50px black;
+    transition: 1.5s;
+}
+
+/* @keyframes f_anim
+{
+ 25%{margin-left: 100px;}
+ 50%{margin-left: 200px;}
+ 75%{margin-left: 200px;}
+ 100%{margin-left: 100px;}
+} */

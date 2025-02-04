@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.upper_div{
+    height: 150px;
+    width: 100%;
+    background-color: hotpink;
+}
+.upper_div h3{
+    color: white;
+    text-align: center;
+}
+.lower_div{
+    height: 500px;
+    width: 100%;
+    background-color: darksalmon;
+}
+
+.items{
+    float: left;
+    list-style: none;
+    padding-left: 50px;
+    padding-right: 60px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.list{
+    height: 50px;
+    position: absolute;
+    left: 200px;
+    background-color: black;
+    width: 800px;
+    color: white;
+}
+.slide img{
+    background-image: url(./image.jpg);
+    height: 20px;
+    position: absolute;
+    z-index: 2;
+    width: 20px;
+
+}
+.image ul li img{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+}
+.image ul{
+    list-style: none;
+}
+.image{
+    margin-top: 18px;
+    background-color: white;
+    height: 100px;
+    width: 65px;
+    color: black;
+    display: none;
+    text-align: center;
+    margin-left: -10px;
+    }  
+.slide img:hover{
+    animation: anim 10s;
+}
+.slide{
+    margin-top: 20px;
+    margin-left: -55px;
+    width: 90px;
+
+}
+.image ul li{
+    padding-top: 10px;
+}
+ .image ul li span{
+    position: absolute;
+    z-index: 1;
+    margin-left: 20px;
+}
+#animation{
+    cursor: pointer;
+}
+@keyframes anim{
+    50%{
+        margin-left: 80px;
+    }
+    100%{
+        margin-left: 0px;
+    }
+}
+
+#animation:hover .image{
+    display: block;
+} 
+
+

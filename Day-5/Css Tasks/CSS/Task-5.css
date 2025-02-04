@@ -1,0 +1,22 @@
+.div{
+    height: 50px;
+    width: 50px;
+   
+}
+
+.div1{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 2px;
+}
+
+.table1{
+    border-spacing: 20px;
+}
+
+.green{
+    background-color: green;
+    color: white;
+    border-radius: 2px;
+}

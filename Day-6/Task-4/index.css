@@ -70,7 +70,7 @@
 
 @keyframes anim{
     50%{
-        margin-left: 65px;
+        margin-left: 60px;
     }
     100%{
         margin-left: 0px;

@@ -36,6 +36,14 @@
     width: 800px;
     color: white;
 }
+.slide img{
+    background-image: url(./image.jpg);
+    height: 20px;
+    position: absolute;
+    z-index: 2;
+    width: 20px;
+
+}
 .image ul li img{
     height: 20px;
     width: 20px;
@@ -53,23 +61,30 @@
     display: none;
     text-align: center;
     margin-left: -10px;
-    }
-.image ul li img:hover{
-    animation: anim 5s;
+    }  
+.slide img:hover{
+    animation: anim 10s;
+}
+.slide{
+    margin-top: 20px;
+    margin-left: -55px;
+    width: 90px;
+
 }
 .image ul li{
     padding-top: 10px;
 }
-.image ul li span{
+ .image ul li span{
+    position: absolute;
+    z-index: 1;
     margin-left: 20px;
 }
 #animation{
     cursor: pointer;
 }
-
 @keyframes anim{
     50%{
-        margin-left: 60px;
+        margin-left: 80px;
     }
     100%{
         margin-left: 0px;
@@ -78,4 +93,6 @@
 
 #animation:hover .image{
     display: block;
-}
+} 
+
+

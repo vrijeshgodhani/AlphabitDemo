@@ -56,7 +56,7 @@
     margin-left: -10px;
     }
 .image ul li img:hover{
-    animation: anim 3s;
+    animation: anim 5s;
 }
 .image ul li{
     padding-top: 10px;
@@ -70,7 +70,7 @@
 
 @keyframes anim{
     50%{
-        margin-left: 40px;
+        margin-left: 65px;
     }
     100%{
         margin-left: 0px;

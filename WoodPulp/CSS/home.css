@@ -1,0 +1,381 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+/* ------------------------Header1--------------------- */
+.header1{
+    height: 50px;
+    width: 100%;
+    background-color:rgb(95, 49, 3) ;
+    color: white;
+    display: flex;    
+}
+.phone{
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.mail{
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.language{
+    margin-left: 1250px;
+    margin-top: 15px;
+}
+.language select{
+    width: 200px;
+}
+.map{
+    background-color: black;
+    height: 860px;
+    width: 500px;
+    z-index: 3;
+    position: fixed;
+    right: 0;
+    display: none;
+}
+.map h1{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    padding: 30px;
+
+}
+.map p{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 30px;
+    margin-top: -50px;
+    margin-left: 40px;
+   word-wrap: break-word;
+   width: 400px;
+}
+
+.icons{
+    margin-left: 40px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.icons i{
+    margin-left: 40px;
+    opacity: 0.5;
+}
+.map iframe{
+    height: 440px;
+    width: 460px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.back{
+    font-size: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+/* ----------------------------Header2-------------------------------- */
+
+.header2{
+    height: 130px;
+    width: 100%;
+    display: flex;
+}
+.logos{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 1200px;
+}
+.logo img{
+    height: 80px;
+    width: 180px;
+    padding: 20px;
+}
+.isi img{
+    height: 80px;
+    width: 100px;
+}
+.indiagreen img{
+    height: 80px;
+    width: 100px;
+}
+.makeinindia img{
+    height: 80px;
+    width: 130px;
+}
+
+/* ---------------------------------Header3------------------------------- */
+
+.menu{
+    display: flex;
+    height: 90px;
+    list-style: none;
+    background-color:rgb(95, 49, 3) ;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.bars{
+    height: 30px;
+    width: 60px;
+    background-color: rgb(239, 138, 55);
+    margin-left:1050px;
+    margin-top: 24px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.home{
+    margin-left: 50px;
+    margin-top: 27px;
+    cursor: pointer;
+}
+.profile{
+    margin-left: 50px;
+    cursor: pointer;
+    margin-top: 27px;
+}
+.product{
+    margin-left: 50px;
+    cursor: pointer;
+    margin-top: 27px;
+}
+.property{
+    margin-left: 50px;
+    cursor: pointer;
+    margin-top: 27px;
+}
+.contact{
+    margin-left: 50px;
+    margin-top: 27px;
+    cursor: pointer;
+}
+.bars i{
+    margin-top: 3px;
+    margin-left: 19px;
+    font-size: 25px;
+}
+.products{
+    display: none !important;
+    position: absolute;
+    list-style: none;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    width: 300px;
+    margin-top: 20px;
+    border-top: 3px solid orange;
+}
+.products li{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-left: -10px;
+}
+.evolveseris{
+    display: flex;
+    flex-direction: column;
+    margin-left: 290px;
+    display: none !important;
+    height: 180px;
+    width: 300px;
+    background-color: black;
+    position: absolute;
+    margin-top: -46px;
+    border-top: 3px solid orange;
+}
+.product:hover .products{
+    display: block!important;
+}
+.evolve:hover .evolveseris{
+    display: block!important;
+}
+.classicseris{
+    height: 60px;
+    width: 200px;
+    background-color: black;
+    margin-left: 295px;
+    margin-top: -46px;
+    border-top: 3px solid orange;
+    display: none !important;
+}
+
+.classic:hover .classicseris{
+    display: block !important;
+}
+.slides img{
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    z-index: -1;
+}
+.slides{
+    display: flex;
+    overflow: hidden;
+}
+
+.slideicons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pre{
+    font-size: 70px;
+    opacity: 0.5;
+    cursor: pointer;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+.next
+{
+    font-size: 70px;
+    margin-top: 300px;
+    margin-right: 100px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.social-icon{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    margin-left: 1750px;
+    margin-top: -350px;
+    
+}
+.sa-wa, .sa-com{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color:  rgb(239, 138, 55);
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: inherit;
+    text-decoration: none;
+    align-items: center;
+
+}
+
+.text{
+    margin-top: 300px;
+    height: 150px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:rgb(95, 49, 3) ;
+    overflow: hidden;
+}
+.text h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 36px; /* Default size */
+    font-weight: bold;
+    color: #333;
+    margin: 0; /* Removes default margin */
+    max-width: 90%; /* Prevents the text from overflowing */
+    word-break: break-word; /* Breaks long words if necessary */
+
+}
+
+
+
+@media only screen and (max-width:430px){
+        .phone{
+            display: none;
+        }
+        .mail{
+            display: none;
+        }
+        .header1{
+            height: 40px;
+            width: 430px;
+        }
+        .language{
+            margin-left: 200px;
+        }
+        .logo{
+            margin-left: 100px;
+        }
+        .logos{
+            margin-left: -250px;
+            margin-top: 120px;
+        }
+        .menu{
+            margin-top: 100px;
+            height: 60px;
+        }
+        .menu ul li{
+            font-size: 13px;
+            margin-top: 20px;
+            margin-left: 15px;
+        }
+        .bars{
+            margin-left: 80px;
+            margin-top: 15px;
+        }
+        .map{
+            height: 500px;
+            width: 400px;
+            margin-top: 15px;
+        }
+        .map h1{
+            font-size: 15px;
+        }
+        .map p{
+            font-size: 10px;
+            max-width: 75%;
+        }
+        .map hr{
+            width: 85%;
+        }
+        .map iframe{
+            height: 200px;
+            width: 350px;
+        }
+       .pre , .next{
+        font-size: 20px;
+        margin-left: 50px;
+        margin-top: 130px;
+       }
+       .next{
+        margin-right: 50px;
+       } 
+       .slides img{
+        height: 300px;
+       }
+       .text{
+        height: 80px;
+        width: 100%;
+        margin-top: 600px;
+        background-color: black;
+}
+       .text h1{
+        color: black;
+        font-size: 10px;
+        padding: 10px;
+       }
+       .social-icon{
+        height: 30px;
+        width: 30px;
+        margin-left: 380px;
+        margin-top: -150px;
+       }
+       .sa-com, .sa-wa{
+        height: 30px;
+        width: 30px;
+        
+       }
+}
+

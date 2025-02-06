@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+      <script>
+        function map() {
+             document.getElementById("map1").style.display = "block";
+        }
+        function back(){
+            document.getElementById("map1").style.display = "none";
+        }
+
+        var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+      </script>
+  </head>
+  <body>
+    <!-- Header1 -->
+    <div class="header1">
+      <div class="phone">
+        <a><i class="fa fa-phone"></i>+91 93757 70770</a>
+      </div>
+      <div class="mail">
+        <a><i class="fa fa-envelope-o"></i>info@woodpulp.co.in</a>
+      </div>
+      <div class="language">
+        <select>
+          <option>select language</option>
+          <option>Gujrati</option>
+          <option>Hindi</option>
+          <option>Marathi</option>
+          <option>English</option>
+        </select>
+      </div>
+      <div class="map" id="map1">
+        <button onclick="back()" class="back">X</button>
+        <h1>Follow Us </h1>
+        <p>
+          Woodpulp, an Initialtive by team of experience engineers to serve wood
+          workers with world class product putting every sense of technicality
+          into manufacturing.
+        </p>
+        <hr width="450px" style="margin-left: 25px" />
+        <div class="icons">
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+        </div>
+        <hr width="450px" style="margin-left: 25px;margin-top: 30px;" >
+        <iframe id="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.9646736620407!2d70.7649617738408!3d22.317175742286327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959c90f3b0f0861%3A0x888f32c5c365f867!2sAlphabit%20Infoway%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1738750234963!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+
+    <!-- Header2 -->
+    <div class="header2">
+      <div class="logo"><img src="../Images/woodpulp_logo_new.png" /></div>
+      <div class="logos">
+        <div class="isi"><img src="../Images/isi.jpg" /></div>
+        <div class="indiagreen">
+          <img src="../Images/India_Green Building_Council.jpg" />
+        </div>
+        <div class="makeinindia"><img src="../Images/Make_in_India.jpg" /></div>
+      </div>
+    </div>
+
+    <!-- Header3 -->
+    <div class="menu">
+    <ul>
+      <li class="home">Home</li>
+      <li class="profile">Profile</li>
+      <li class="product">Products
+        <ul class="products">
+          <li class="evolve">Evolve Seris <span style="margin-left: 110px;">></span> 
+              <ul class="evolveseris">
+                  <li>Architecture Choice</li>
+                  <hr>
+                  <li>Project Choice</li>
+                  <hr>
+                  <li>Solid Colors</li>
+              </ul>
+          </li>
+          <hr>
+          <li class="classic">Classic Seris <span style="margin-left: 100px;">></span> 
+              <ul class="classicseris">
+                  <li>Project Shade</li>
+              </ul>
+          </li>
+      </ul>
+      </li>
+      <li class="property">Property</li>
+      <li class="contact">Contact</li>
+    </ul>
+    <div class="bars"><i class="fa fa-bars" onclick="map()"></i></div>
+  </div>
+
+  <!-- Slider -->
+   <div class="slider">
+    <figure>
+      <div class="slides">
+        <img class="mySlides" src="../Images/slider1.jpg">
+        <img class="mySlides" src="../Images/slider2.jpg">
+        <img class="mySlides" src="../Images/slider3.jpg">
+        <img class="mySlides" src="../Images/slider4.jpg">
+      </div>
+    </figure>
+      <div class="slideicons">
+        <button class="w3-button w3-display-left pre"  onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-display-right next"  onclick="plusDivs(+1)">&#10095;</button>
+      </div>
+   </div>
+   <div class="social-icon">
+    <a class="sa-wa" href="https://wa.me/+919375770770?text=hii" target="_blank"><i class="fa fa-whatsapp" style="font-size: 20px;" ></i></a>
+    <a class="sa-com" href="mailto:sales.co@woodpulp.co.in" target="_blank"><i class="fa fa-comments" style="font-size: 20px;"></i></a>
+   </div>
+
+   <!-- Body -->
+    <div class="text"> 
+      <h1>"CHANGE IS THE ONLY CONSTANT"</h1>
+    </div>
+  </body>
+</html>

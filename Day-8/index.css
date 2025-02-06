@@ -1,7 +1,7 @@
 .div1{
     height: 100px;
     width: 140px;
-    background-color: black;
+    background-color: greenyellow;
     border-radius: 15px;
     margin-top: 0px;
     margin-left: 100px;
@@ -13,14 +13,12 @@
 .div2{
     height: 100px;
     width: 600px;
-    background-color: greenyellow;
+    background-color: yellowgreen;
     cursor: pointer;
     margin-top: 100px;
     margin-left: 300px;
     border-radius: 15px;
     box-shadow: 0px 0px 60px coral;
-
-
 }
 .div3{
     height: 300px;

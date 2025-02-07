@@ -4,36 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="../CSS/home.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-      <script>
-        function map() {
-             document.getElementById("map1").style.display = "block";
-        }
-        function back(){
-            document.getElementById("map1").style.display = "none";
-        }
+      <script src="../Scripts/scripts.js"></script>
 
-        var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length} ;
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  x[slideIndex-1].style.display = "block";
-}
-      </script>
   </head>
   <body>
     <!-- Header1 -->
@@ -93,17 +73,17 @@ function showDivs(n) {
         <ul class="products">
           <li class="evolve">Evolve Seris <span style="margin-left: 110px;">></span> 
               <ul class="evolveseris">
-                  <li>Architecture Choice</li>
-                  <hr>
-                  <li>Project Choice</li>
-                  <hr>
-                  <li>Solid Colors</li>
+                  <li class="li1" >Architecture Choice</li>
+                  <hr style="margin-top: -10px;margin-left: -25px;">
+                  <li class="li2" style="margin-top: -20px;">Project Choice</li>
+                  <hr style="margin-top: -10px;margin-left: -25px;">
+                  <li class="li3" style="margin-top: -20px;">Solid Colors</li>
               </ul>
           </li>
-          <hr>
-          <li class="classic">Classic Seris <span style="margin-left: 100px;">></span> 
+          <hr style="margin-top: 0px;margin-left: -30px;">
+          <li class="classic" style="margin-top: -20px;">Classic Seris <span style="margin-left: 90px;">></span> 
               <ul class="classicseris">
-                  <li>Project Shade</li>
+                  <li class="li4">Project Shade</li>
               </ul>
           </li>
       </ul>
@@ -138,5 +118,212 @@ function showDivs(n) {
     <div class="text"> 
       <h1>"CHANGE IS THE ONLY CONSTANT"</h1>
     </div>
+
+
+    <div class="welcome">
+        <img src="../Images/welcomewood.jpeg"> 
+        <div class="welcome-text">
+          <h2 style="font-size: 40px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: rgb(95, 49, 3);margin-top: 20px;">Welcome to WoodPlup _____</h2>
+          <h4 style="font-size:30px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;margin-top: 40px;margin-left: 0px;">Over <span style="color: rgb(239, 138, 55);"> 9 Years </span> Experience in This Industry</h4>
+          <ul>
+            <li style="font-size: 23px;margin-left: 60px;margin-top: 40px;">Woodpulp, an Initiative by a team of experienced engineers to serve woodWorkers with world class products putting every sense of technicality into manufacturing.
+            </li>
+            <li style="font-size: 23px;margin-left: 60px;margin-top: 40px;">
+              With a Vision to promote Eco-Friendly lifestyle Woodpulp brings you range of particle board which adheres to international quality standards of Board and Lamination
+            </li>
+            <li style="font-size: 23px;margin-left: 60px;margin-top: 40px;">
+              Woodpulp offers variety of design and thickness to choose from.<br>
+              <b>Size:</b><br>9<sup>,</sup>x6<sup>,</sup> & 8<sup>,</sup>x6<sup>,</sup><br>
+              <b>Thickness:</b><br>09mm,11mm,15mm,17mm,18mm,25mm<br>
+              <b>Design:</b><br>Classic Seris & Evolve Seris<br>
+              <b>Grade:</b><br>
+              G1(Exterior) & G2(Interior)<br>
+              <b>Emissions Class:</b><br>
+              E1 & E2
+            </li>
+          </ul>
+        </div>
+    </div>
+
+    <h1 style="margin-left: 50px;margin-top: 100px;color: rgb(70, 46, 2);">Our Latest Products <span style="color: rgb(245, 176, 48);"> _____ </span></h1>
+    <div class="whywood">
+      <img src="../Images/whywood.jpeg">
+      <div class="whywood-text">
+        <h4 style="color: rgb(70, 46, 2);margin-top: 100px;margin-left: 120px;font-size: 40px;">WHY WOOD PULP? ____</h4>
+        <ul>
+          <li>Quality Assurance by state of the art Manufacturing facility.</li>
+          <li>In House Glue preparation system for better quality & consistency.</li>
+          <li>High IB value Leads to better,<b>"Screw holding strength".</b></li>
+          <li>Made from:100% fresh wood,<b>"Saves tooling cost."</b></li>
+          <li>A pure melamine coating leads to <b>,"moisture scratch & Fade"</b>resistant lamination property.</li>
+          <li>HPL like high abrasion resistant surface finish.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="heading">
+        <h1>How We Work</h1>
+        <hr width="8%" color="black"  style="background-color: black; border: none; height: 5px;">
+    </div>
+
+
+    <div class="work-icons" style="margin-top: 100px;">
+      <div class="icon1">
+        <i class="fa fa-file-text-o"></i>
+        <p>Log Storage</p>
+      </div>
+      <div class="icon1">
+        <i class="fa fa-file-text-o"></i>
+        <p>Convert into chips and chips to Flakes.</p>
+      </div>
+      <div class="icon1">
+        <i class="fa fa-file-text-o"></i>
+        <p>Drying the flakes to the desired moisture level.</p>
+      </div>
+      <div class="icon1">
+        <i class="fa fa-file-text-o"></i>
+        <p>Screening the dried flakes into Core and Face.</p>
+      </div>
+      <div class="icon1">
+        <i class="fa fa-file-text-o"></i>
+        <p>Gluing them with high quality resin.</p>
+      </div>
+      <div class="icon1">
+        <i class="fa fa-file-text-o"></i>
+        <p>Preparing the Matt and Hot pressing it for final curing.</p>
+      </div>
+      <div class="icon1">
+        <i class="fa fa-file-text-o"></i>
+        <p>Sanding and Sizing the cured panel.</p>
+      </div>
+    </div>
+
+
+    <div class="advertisement" style="display: flex;">
+      <div class="add-left" style="width: 50%;">
+        <h2 style="margin-left: 60px; font-size: 40px;font-weight: 800;color: rgb(63, 41, 2);" >Our Product Sppeciality ____</h2>
+        <h4 style="margin-left: 220px;margin-top: 20px;color: rgb(176, 118, 10);font-size: 30px;font-weight: 600;">Do IT ~ Error Free</h4>
+        <div class="add-img-1" style="padding: 20px;margin-left: 40px;">
+            <img src="../Images/Cut it (1).jpg" height="320px" width="250px">
+            <img src="../Images/Route.jpg" height="320px" width="250px">
+        </div>
+        <div class="add-img-2" style="padding: 20px;margin-left: 40px;">
+            <img src="../Images/Drill it (1).jpg" height="320px" width="250px">
+            <img src="../Images/Mould it (1).jpg" height="320px" width="250px">
+        </div>
+      </div>
+      <div class="add-right" style="width: 50%;">
+        <div class="vid-1" >
+        <iframe style="padding: 20px;"width="400" height="400" src="https://www.youtube.com/embed/XgLfXx-Sy4A" title="Cut It" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe style="padding: 20px;" width="400" height="400" src="https://www.youtube.com/embed/PeRlrHA5FPE" title="Drill it" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <div class="vid-2" >
+        <iframe width="400" style="padding: 20px;" height="400" src="https://www.youtube.com/embed/N6iWfBod03M" title="Route it" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="400" style="padding: 20px;" height="400" src="https://www.youtube.com/embed/N6iWfBod03M" title="Route it" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      </div>
+    </div>
+
+   
+    
+    <div class="footer">
+      <div class="clients" style="color:white;font-weight: bold;">
+            <div class="client1" style="margin-top: 80px;display: flex;">
+              <div class="counter" style="font-size: 50px;margin-top: -20px;">
+                  <span class="count" data-target="490">490</span><span class="plus">+</span>
+              </div>
+              <div class="separator" style="font-size: 80px;color: orange;margin-left: 2px;margin-top: -50px;">|</div>
+              <div class="label" style="margin-left: 6px;font-size: 30px;margin-top: -30px;">Our <br> Clients</div>
+            </div>
+            <div class="client1" style="margin-top: 80px;display: flex;">
+              <div class="counter" style="font-size: 50px;margin-top: -20px;">
+                  <span class="count" data-target="37">37</span><span class="plus">+</span>
+              </div>
+              <div class="separator" style="font-size: 80px;color: orange;margin-left: 2px;margin-top: -50px;">|</div>
+              <div class="label" style="margin-left: 6px;font-size: 30px;margin-top: -7px;">Dealers</div>
+            </div>
+            <div class="client1" style="margin-top: 80px;display: flex;">
+              <div class="counter" style="font-size: 50px;margin-top: -20px;">
+                  <span class="count" data-target="100">100</span><span class="plus">+</span>
+              </div>
+              <div class="separator" style="font-size: 80px;color: orange;margin-left: 2px;margin-top: -50px;">|</div>
+              <div class="label" style="margin-left: 6px;font-size: 30px;margin-top: -30px;">Design <br> Choice</div>
+            </div>
+            <div class="client1" style="margin-top: 80px;display: flex;">
+              <div class="counter" style="font-size: 50px;margin-top: -20px;">
+                  <span class="count" data-target="150">150</span><span class="plus">+</span>
+              </div>
+              <div class="separator" style="font-size: 80px;color: orange;margin-left: 2px;margin-top: -50px;">|</div>
+              <div class="label" style="margin-left: 6px;font-size: 30px;margin-top: -30px;">Projects <br> Completed</div>
+            </div>
+      </div>
+      </div>
+    </div>
+
+    <h2 style="margin-top: 150px;text-align: center; font-weight: 700;font-size: 50px;">Clients Says</h2>
+    <hr  style="width: 5%; background-color: black; border: none; height: 7px;margin-left: 865px;">
+
+    <div class="container swiper" >
+      <div class="slider-wrapper">
+        <div class="card-list swiper-wrapper">
+          <div class="card-item  swiper-slide">
+            <h2 style="text-align: center;font-size: 20px;font-weight: bold;margin-top: 30px;">MR. KANTI KATELIYA</h2>
+            <P style="width: 500px;padding: 30px;margin-left: 50px;font-size: 20px;">Good Quality & Design Collection By The WoodPulp, We are using since 2019, We Trust BIS Standard Board supply by the woodpulp.The Board saves our tooling cost as there is no any stone Pcs Or Metal Pins.
+            </P>
+          </div>
+          <div class="card-item swiper-slide">
+            <h2 style="text-align: center;font-size: 20px;font-weight: bold;margin-top: 30px;">MR. NIDHIP THAKKAR</h2>
+            <P style="width: 500px;padding: 30px;margin-left: 50px;font-size: 20px;">Amazing quality maintained By the Woodpulp and the best part of them is they never use harmful chemicals like urea in treating the peper.Always Positive towards bringing some new collection of german papers and looking forward to grow more with them in upcoming time.</P>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="footer-top" style="margin-left: 0;">
+      <div class="footer1">
+        <img src="../Images/woodpulp_white.png" style="height: 100px;width: 200px;">
+        <p> Woodpulp, an Initiative by a team of experienced engineers to serve woodworkers with world class products putting every sense of technicially into manufactoring.</p>
+        <div class="footer-logos">
+          <p>Follow Us:
+          <a href="https://www.linkedin.com/company/wood-pulp/about/" style="text-decoration: none;color: white;margin-left: 20px;" target="_blank"><i class="fa fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/woodpulp_panel/" style="text-decoration: none;color: white;margin-left: 20px;" target="_blank"><i class="fa fa-instagram"></i></a>
+          <a href="https://x.com/i/flow/login?redirect_after_login=%2Fwoodpulp_panel" style="text-decoration: none;color: white;margin-left: 20px;" target="_blank"><i class="fa fa-twitter"></i></a>
+        </p>
+        </div>
+      </div>
+      <div class="footer2">
+        <h2>Useful Links</h2>
+        <p style="color: white;height: 20px;font-weight: 700;margin-top:-30px; ;">________</p>
+        <p class="footer2i"><i class="fa fa-caret-right "></i>&nbsp;&nbsp;&nbsp;&nbsp;Company Profile<br></p>
+        <p class="footer2i"><i class="fa fa-caret-right "></i>&nbsp;&nbsp;&nbsp;&nbsp;Technical Property<br></p>
+        <p class="footer2i"><i class="fa fa-caret-right "></i>&nbsp;&nbsp;&nbsp;&nbsp;Contact Us</p>
+      </div>
+      <div class="footer3">
+        <h2>Our Products</h2>
+        <p style="color: white;height: 20px;font-weight: 700;margin-top:-30px; ;">________</p>
+        <p class="footer3i"><i class="fa fa-caret-right footer3i"></i>&nbsp;&nbsp;&nbsp;&nbsp;Evolve Seris<br></p>
+        <p class="footer3i"><i class="fa fa-caret-right footer3i"></i>&nbsp;&nbsp;&nbsp;&nbsp;Classic Seris</p>
+      </div>
+      <div class="footer4">
+        <h2>Contact Us</h2>
+        <p style="color: white;height: 20px;font-weight: 700;margin-top:-30px; ;">________</p>
+        <div class="address1">
+          <i class="fa fa-map-marker" style="color: orange;"></i>
+          <p>Survey No. 133/3, Mahendragadh Road, Near Pipaliya Cross Road, Navlakhi Highway, At: Pipaliya- 363660 , Dist.: Morbi, Gujarat.</p>
+        </div>
+        <div class="address2">
+          <i class="fa fa-phone" style="color: orange;"></i>
+          <p>+91 93757 70770<br>info@woodpulp.co.in</p>
+        </div>
+        <div class="address3">
+          <i class="fa fa-clock-o" style="color: orange;"></i>
+          <p>working Hours<br>09:00 am to 5:00 pm</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="final-footer"><p>Copyrights 2025. All Rights are Reserved by <span style="color: rgb(71, 48, 4);"> WoodPulp</span></p></div>
   </body>
 </html>

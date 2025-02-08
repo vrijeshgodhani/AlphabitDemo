@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../CSS/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+      <script src="../Scripts/scripts.js"></script>
+
+      <div class="header1">
+        <div class="phone">
+          <a><i class="fa fa-phone"></i>+91 93757 70770</a>
+        </div>
+        <div class="mail">
+          <a><i class="fa fa-envelope-o"></i>info@woodpulp.co.in</a>
+        </div>
+        <div class="language">
+          <select>
+            <option>select language</option>
+            <option>Gujrati</option>
+            <option>Hindi</option>
+            <option>Marathi</option>
+            <option>English</option>
+          </select>
+        </div>
+        <div class="map" id="map1">
+          <button onclick="back()" class="back">X</button>
+          <h1>Follow Us </h1>
+          <p>
+            Woodpulp, an Initialtive by team of experience engineers to serve wood
+            workers with world class product putting every sense of technicality
+            into manufacturing.
+          </p>
+          <hr width="450px" style="margin-left: 25px" />
+          <div class="icons">
+              <i class="fa fa-linkedin"></i>
+              <i class="fa fa-instagram"></i>
+              <i class="fa fa-twitter"></i>
+          </div>
+          <hr width="450px" style="margin-left: 25px;margin-top: 30px;" >
+          <iframe id="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.9646736620407!2d70.7649617738408!3d22.317175742286327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959c90f3b0f0861%3A0x888f32c5c365f867!2sAlphabit%20Infoway%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1738750234963!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+  
+      <!-- Header2 -->
+      <div class="header2">
+        <div class="logo"><img src="../Images/woodpulp_logo_new.png" /></div>
+        <div class="logos">
+          <div class="isi"><img src="../Images/isi.jpg" /></div>
+          <div class="indiagreen">
+            <img src="../Images/India_Green Building_Council.jpg" />
+          </div>
+          <div class="makeinindia"><img src="../Images/Make_in_India.jpg" /></div>
+        </div>
+      </div>
+  
+      <!-- Header3 -->
+      <div class="menu">
+      <ul>
+        <li class="home"><a href="../Html/home.html" style="text-decoration: none;color: white;">Home</a></li>
+        <li class="profile"><a href="../Html/Profile.html" style="text-decoration: none;color: white;">Profile</a></li>
+        <li class="product">Products
+          <ul class="products">
+            <li class="evolve">Evolve Seris <span style="margin-left: 110px;">></span> 
+                <ul class="evolveseris">
+                    <li class="li1" ><a href="../Html/Architecture_Choice.html" style="text-decoration: none;color: white;">Architecture Choice</a></li>
+                    <hr style="margin-top: -10px;margin-left: -25px;">
+                    <li class="li2" style="margin-top: -20px;">Project Choice</li>
+                    <hr style="margin-top: -10px;margin-left: -25px;">
+                    <li class="li3" style="margin-top: -20px;"><a style="text-decoration: none;color: white;">Solid Colors</a></li>
+                </ul>
+            </li>
+            <hr style="margin-top: 0px;margin-left: -30px;">
+            <li class="classic" style="margin-top: -20px;">Classic Seris <span style="margin-left: 90px;">></span> 
+                <ul class="classicseris">
+                    <li class="li4"><a href="../Html/Project Shade.html" style="text-decoration: none;color: white;">Project Shade</a></li>
+                </ul>
+            </li>
+        </ul>
+        </li>
+        <li class="property">Property</li>
+        <li class="contact">Contact</li>
+      </ul>
+      <div class="bars"><i class="fa fa-bars" onclick="map()"></i></div>
+    </div>
+    <div class="social-icon" style="margin-top: 200px;">
+        <a class="sa-wa" href="https://wa.me/+919375770770?text=hii" target="_blank"><i class="fa fa-whatsapp" style="font-size: 20px;" ></i></a>
+        <a class="sa-com" href="mailto:sales.co@woodpulp.co.in" target="_blank"><i class="fa fa-comments" style="font-size: 20px;"></i></a>
+    </div>
+    <div class="topbutton" id="topBtn" onclick="scrollToTop()" style="margin-top: 500px;"><i class="fa fa-angle-double-up" style="font-size: 60px;"></i></div>
+
+    
+    <div style="height: 250px;width: 100%;background-color: rgb(122, 117, 117);"></div>
+
+
+    <div style="display: flex;flex-direction: column;justify-content: center;align-items: center;margin-top: 100px;">
+
+        <div class="ac1" style="height: 500px;width: 70%;display: flex;justify-content: space-around;background-color:#f4f1f1;box-shadow: 5px 10px 30px 5px black;">
+            <img src="../Images/pc-1.jpg" style="height: 400px; width:400px;margin-top: 50px;">
+            <img src="../Images/pc-1.jpg" style="height: 200px;width:150px;margin-top: 130px;margin-left: 90px;">
+            <div style="margin-top: 150px;margin-left: -60px;">
+                <div>
+                    <p style="font-size: 25px;">EV 117<br>Oxford<br>Cherry</p>
+                </div>
+                <div style="display: flex;font-size: 30px;">
+                    <div style="font-size: 75px;">|</div>
+                    <div style="margin-top: 20px;">Evolve<br>Seris</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ac1" style="height: 500px;width: 70%;display: flex;justify-content: space-around;background-color:#f4f1f1;box-shadow: 5px 10px 30px 5px black;;margin-top: 60px;">
+            <img src="../Images/pc2.jpg" style="height: 400px; width:400px;margin-top: 50px;">
+            <img src="../Images/pc2.jpg" style="height: 200px;width:150px;margin-top: 130px;margin-left: 90px;">
+            <div style="margin-top: 150px;margin-left: -60px;">
+                <div>
+                    <p style="font-size: 25px;">EV 118<br>Wyoming<br>DK</p>
+                </div>
+                <div style="display: flex;font-size: 30px;">
+                    <div style="font-size: 75px;">|</div>
+                    <div style="margin-top: 20px;">Evolve<br>Seris</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="ac1" style="height: 500px;width: 70%;display: flex;justify-content: space-around;background-color:#f4f1f1;box-shadow: 5px 10px 30px 5px black;;margin-top: 60px;">
+            <img src="../Images/pc3.jpg" style="height: 400px; width:400px;margin-top: 50px;">
+            <img src="../Images/pc3.jpg" style="height: 200px;width:150px;margin-top: 130px;margin-left: 90px;">
+            <div style="margin-top: 150px;margin-left: -60px;">
+                <div>
+                    <p style="font-size: 25px;">EV 119<br>Sonoma LT</p>
+                </div>
+                <div style="display: flex;font-size: 30px;">
+                    <div style="font-size: 75px;">|</div>
+                    <div style="margin-top: 20px;">Evolve<br>Seris</div>
+                </div>
+            </div>
+        </div>
+        <div class="ac1" style="height: 500px;width: 70%;display: flex;justify-content: space-around;background-color:#f4f1f1;box-shadow: 5px 10px 30px 5px black;;margin-top: 60px;">
+            <img src="../Images/pc4.jpg" style="height: 400px; width:400px;margin-top: 50px;">
+            <img src="../Images/pc4.jpg" style="height: 200px;width:150px;margin-top: 130px;margin-left: 90px;">
+            <div style="margin-top: 150px;margin-left: -60px;">
+                <div>
+                    <p style="font-size: 25px;">EV 120<br>Sonoma<br>DK</p>
+                </div>
+                <div style="display: flex;font-size: 30px;">
+                    <div style="font-size: 75px;">|</div>
+                    <div style="margin-top: 20px;">Evolve<br>Seris</div>
+                </div>
+            </div>
+        </div>
+        <div class="ac1" style="height: 500px;width: 70%;display: flex;justify-content: space-around;background-color:#f4f1f1;box-shadow: 5px 10px 30px 5px black;;margin-top: 60px;">
+            <img src="../Images/pc5.jpg" style="height: 400px; width:400px;margin-top: 50px;">
+            <img src="../Images/pc5.jpg" style="height: 200px;width:150px;margin-top: 130px;margin-left: 90px;">
+            <div style="margin-top: 150px;margin-left: -60px;">
+                <div>
+                    <p style="font-size: 25px;">EV 121<br>Acacia DK</p>
+                </div>
+                <div style="display: flex;font-size: 30px;">
+                    <div style="font-size: 75px;">|</div>
+                    <div style="margin-top: 20px;">Evolve<br>Seris</div>
+                </div>
+            </div>
+        </div>
+        <div class="ac1" style="height: 500px;width: 70%;display: flex;justify-content: space-around;background-color:#f4f1f1;box-shadow: 5px 10px 30px 5px black;;margin-top: 60px;">
+            <img src="../Images/pc6.jpg" style="height: 400px; width:400px;margin-top: 50px;">
+            <img src="../Images/pc6.jpg" style="height: 200px;width:150px;margin-top: 130px;margin-left: 90px;">
+            <div style="margin-top: 150px;margin-left: -60px;">
+                <div>
+                    <p style="font-size: 25px;">EV 122<br>Acacia LT</p>
+                </div>
+                <div style="display: flex;font-size: 30px;">
+                    <div style="font-size: 75px;">|</div>
+                    <div style="margin-top: 20px;">Evolve<br>Seris</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-top" style="margin-left: 0;margin-top: 70px;">
+        <div class="footer1">
+          <img src="../Images/woodpulp_white.png" style="height: 100px;width: 200px;">
+          <p> Woodpulp, an Initiative by a team of experienced engineers to serve woodworkers with world class products putting every sense of technicially into manufactoring.</p>
+          <div class="footer-logos">
+            <p>Follow Us:
+            <a href="https://www.linkedin.com/company/wood-pulp/about/" style="text-decoration: none;color: white;margin-left: 20px;" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/woodpulp_panel/" style="text-decoration: none;color: white;margin-left: 20px;" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://x.com/i/flow/login?redirect_after_login=%2Fwoodpulp_panel" style="text-decoration: none;color: white;margin-left: 20px;" target="_blank"><i class="fa fa-twitter"></i></a>
+          </p>
+          </div>
+        </div>
+        <div class="footer2">
+          <h2>Useful Links</h2>
+          <p style="color: white;height: 20px;font-weight: 700;margin-top:-30px; ;">________</p>
+          <p class="footer2i"><i class="fa fa-caret-right "></i>&nbsp;&nbsp;&nbsp;&nbsp;Company Profile<br></p>
+          <p class="footer2i"><i class="fa fa-caret-right "></i>&nbsp;&nbsp;&nbsp;&nbsp;Technical Property<br></p>
+          <p class="footer2i"><i class="fa fa-caret-right "></i>&nbsp;&nbsp;&nbsp;&nbsp;Contact Us</p>
+        </div>
+        <div class="footer3">
+          <h2>Our Products</h2>
+          <p style="color: white;height: 20px;font-weight: 700;margin-top:-30px; ;">________</p>
+          <p class="footer3i"><i class="fa fa-caret-right footer3i"></i>&nbsp;&nbsp;&nbsp;&nbsp;Evolve Seris<br></p>
+          <p class="footer3i"><i class="fa fa-caret-right footer3i"></i>&nbsp;&nbsp;&nbsp;&nbsp;Classic Seris</p>
+        </div>
+        <div class="footer4">
+          <h2>Contact Us</h2>
+          <p style="color: white;height: 20px;font-weight: 700;margin-top:-30px; ;">________</p>
+          <div class="address1">
+            <i class="fa fa-map-marker" style="color: orange;"></i>
+            <p>Survey No. 133/3, Mahendragadh Road, Near Pipaliya Cross Road, Navlakhi Highway, At: Pipaliya- 363660 , Dist.: Morbi, Gujarat.</p>
+          </div>
+          <div class="address2">
+            <i class="fa fa-phone" style="color: orange;"></i>
+            <p>+91 93757 70770<br>info@woodpulp.co.in</p>
+          </div>
+          <div class="address3">
+            <i class="fa fa-clock-o" style="color: orange;"></i>
+            <p>working Hours<br>09:00 am to 5:00 pm</p>
+          </div>
+  
+        </div>
+      </div>
+      <div class="final-footer"><p>Copyrights 2025. All Rights are Reserved by <span style="color: rgb(71, 48, 4);"> WoodPulp</span></p></div>
+</head>
+<body>
+    
+</body>
+</html>

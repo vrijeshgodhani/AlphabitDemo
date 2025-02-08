@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../CSS/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+      <script src="../Scripts/scripts.js"></script>
+
+</head>
+<body>
+    <div class="header1">
+        <div class="phone">
+          <a><i class="fa fa-phone"></i>+91 93757 70770</a>
+        </div>
+        <div class="mail">
+          <a><i class="fa fa-envelope-o"></i>info@woodpulp.co.in</a>
+        </div>
+        <div class="language">
+          <select>
+            <option>select language</option>
+            <option>Gujrati</option>
+            <option>Hindi</option>
+            <option>Marathi</option>
+            <option>English</option>
+          </select>
+        </div>
+        <div class="map" id="map1">
+          <button onclick="back()" class="back">X</button>
+          <h1>Follow Us </h1>
+          <p>
+            Woodpulp, an Initialtive by team of experience engineers to serve wood
+            workers with world class product putting every sense of technicality
+            into manufacturing.
+          </p>
+          <hr width="450px" style="margin-left: 25px" />
+          <div class="icons">
+              <i class="fa fa-linkedin"></i>
+              <i class="fa fa-instagram"></i>
+              <i class="fa fa-twitter"></i>
+          </div>
+          <hr width="450px" style="margin-left: 25px;margin-top: 30px;" >
+          <iframe id="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.9646736620407!2d70.7649617738408!3d22.317175742286327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959c90f3b0f0861%3A0x888f32c5c365f867!2sAlphabit%20Infoway%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1738750234963!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+  
+      <!-- Header2 -->
+      <div class="header2">
+        <div class="logo"><img src="../Images/woodpulp_logo_new.png" /></div>
+        <div class="logos">
+          <div class="isi"><img src="../Images/isi.jpg" /></div>
+          <div class="indiagreen">
+            <img src="../Images/India_Green Building_Council.jpg" />
+          </div>
+          <div class="makeinindia"><img src="../Images/Make_in_India.jpg" /></div>
+        </div>
+      </div>
+  
+      <!-- Header3 -->
+      <div class="menu">
+      <ul>
+        <li class="home"><a href="../Html/home.html" style="text-decoration: none;color: white;">Home</a></li>
+        <li class="profile">Profile</li>
+        <li class="product">Products
+          <ul class="products">
+            <li class="evolve">Evolve Seris <span style="margin-left: 110px;">></span> 
+                <ul class="evolveseris">
+                    <li class="li1" ><a href="../Html/Architecture_Choice.html" style="text-decoration: none;color: white;">Architecture Choice</a></li>
+                    <hr style="margin-top: -10px;margin-left: -25px;">
+                    <li class="li2" style="margin-top: -20px;"><a href="../Html/Project Choice.html" style="text-decoration: none;color: white;">Project Choice</a></li>
+                    <hr style="margin-top: -10px;margin-left: -25px;">
+                    <li class="li3" style="margin-top: -20px;"><a href="../Html/Solid Colors.html" style="text-decoration: none;color: white;">Solid Colors</a></li>
+                </ul>
+            </li>
+            <hr style="margin-top: 0px;margin-left: -30px;">
+            <li class="classic" style="margin-top: -20px;">Classic Seris <span style="margin-left: 90px;">></span> 
+                <ul class="classicseris">
+                    <li class="li4"><a href="../Html/Project Shade.html" style="text-decoration: none;color: white;">Project Shade</a></li>
+                </ul>
+            </li>
+        </ul>
+        </li>
+        <li class="property">Property</li>
+        <li class="contact">Contact</li>
+      </ul>
+      <div class="bars"><i class="fa fa-bars" onclick="map()"></i></div>
+    </div>
+    <div class="social-icon" style="margin-top: 200px;">
+        <a class="sa-wa" href="https://wa.me/+919375770770?text=hii" target="_blank"><i class="fa fa-whatsapp" style="font-size: 20px;" ></i></a>
+        <a class="sa-com" href="mailto:sales.co@woodpulp.co.in" target="_blank"><i class="fa fa-comments" style="font-size: 20px;"></i></a>
+    </div>
+    <div class="topbutton" id="topBtn" onclick="scrollToTop()" style="margin-top: 500px;"><i class="fa fa-angle-double-up" style="font-size: 60px;"></i></div>
+
+    
+    <div style="height: 250px;width: 100%;background-color: rgb(122, 117, 117);"></div>
+    
+    <div class="profile_about" style="padding: 50px;">
+        <div class="profile_about_left">
+            <img src="../Images/profile_about.jpg">
+        </div>
+        <div class="profile_about_right">
+            <h1>About Us ____</h1>
+            <h4 style="margin-top: 60px;">Over<span style="color: rgb(230, 185, 102);"> 9 Years </span> Experience in This Industry</h4>
+            <ul>
+                <li>Woodpulp, established in the year of 2015 with a best in class Lamination technology , an Initiative by a team of experienced engineers to serve woodworkers with world class products putting every sense of technicality into manufacturing. With a vision to promote Eco-Friendly lifestyle style Woodpulp brings you a range of particle board.</li>
+                <li>Woodpulp, actively involved into manufacturing of particleboard which adheres to international standard of Motherboard and Lamination as well.</li>
+                <li>Woodpulp Has 9’x6’ Mother board and Lamination plant with 200 CBM per day production capacity.</li>
+                <li>Woodplup always believes in Quality commitments and Customer Centric Approach.</li>
+            </ul>
+        </div>
+    </div>
+    <div style="display: flex;flex-direction: column;align-items: center;margin-top: -40px;">
+          <h1 style="font-size: 50px;">Environment</h1>
+          <p style="font-size: 40px;margin-top: -30px;">______</p>
+    </div>
+    <div class="environment" style="padding: 50px;">
+        <div class="environment_left">
+            <img src="../Images/environment1.jpeg">
+        </div>
+        <div class="environment_right">
+            <h2 style="font-weight: 700;font-size: 40px;">We Believe in Safe</h2>
+            <h2 style="font-size: 40px;font-weight: lighter;">Environment & Health</h2>
+            <ul>
+                <li>We Ensure compliance with the relevant legislation by the continual monitoring of all areas and aspects of plant and work places.We Encourage, promote and help all employees to develop a culture of health and safety in their workplaces.</li>
+                <li>Woodpulp Panel LLP carries the stamp of eco-friendly product as the company is completely environment conscious for its entire establishment. Our commitment to increase our ecological footprint is reflected in the lush green plantation at our manufacturing site.Stringent environmental policies are enforced in our manufacturing plants to get great green payoffs.</li>
+            </ul>
+        </div>
+    </div>
+
+    <h1 style="margin-left: 200px;">Thouhgts of Woodpulp _____</h1>
+
+    <div class="thoughts" style="width: 100%;">
+        <div class="thoughts_card" style="width: 25%;">
+            <h3 style="margin-top: 50px;">MANAGEMENT</h3>
+            <p style="font-size: 25px;width: 70%;text-align: start;margin-top: 40px;">Young and Dynamic Management team who are having hands on experience for more than 9 years in the field of Wood Working.</p>
+        </div>
+        <div class="thoughts_card" style="width: 25%;">
+            <h3 style="margin-top: 50px;">VISION</h3>
+            <p style="font-size: 25px;width: 80%;text-align: start;margin-top: 40px;">To Promote Eco-friendly lifestyle through the range of particle board.</p>
+        </div>
+        <div class="thoughts_card" style="width: 25%;">
+            <h3 style="margin-top: 50px;">MISSION</h3>
+            <p style="font-size: 25px;width: 80%;text-align: start;margin-top: 40px;">To be the leading board supplier of the furniture industry with the right balance of product and service.</p>
+        </div>
+    </div>
+    <div style="display: flex;flex-direction: column;font-weight: bold;text-align: center;margin-top: 150px;">
+        <h1 style="font-size: 40px;">Expert Management Team</h1>
+        <p style="font-size: 50px;margin-top: -40px;">_____</p>
+    </div>
+
+    <div class="team">
+        <div class="team_card">
+            <img src="../Images/Tushar Virsodiya.jpeg" style="height: 100px;width: 100px;border-radius: 50%;margin-top: 40px;">
+            <h3 style="margin-top: 20px;">Mr.Tushar Virsodiya</h3>
+            <p style="margin-top: 20px;">Director Sales</p>
+            <p style="width: 80%;font-size: 25px;text-align: start;font-weight: 500;">Engaged with the woodworking industry since 2011. He Worked with Mitsuba System(India) in Powder Coating Division & FELDER (Austria) in Wood Working Machinery Division as the Manager Sales.</p>
+        </div>
+        <div class="team_card">
+            <img src="../Images/upendra dhamasana.jpeg" style="height: 100px;width: 100px;border-radius: 50%;margin-top: 40px;">
+            <h3 style="margin-top: 20px;">Mr.Upendra Dhamasana</h3>
+            <p style="margin-top: 20px;">Director Finance</p>
+            <p style="width: 80%;font-size: 25px;text-align: start;font-weight: 500;">Engaged with the ceramic industry since 2005. He worked with Soriso Kajaria LTD as the Head Finance.</p>
+        </div>
+        <div class="team_card">
+            <img src="../Images/Mihir Aghara.jpeg" style="height: 100px;width: 100px;border-radius: 50%;margin-top: 40px;">
+            <h3 style="margin-top: 20px;">Mr.Mihir Aghara</h3>
+            <p style="margin-top: 20px;">Director Production</p>
+            <p style="width: 90%;font-size: 25px;text-align: start;font-weight: 500;">Engaged with the board industry since 2014 as the Manager Production.</p>
+        </div>
+    </div>
+    <div class="footer-top" style="margin-left: 0;margin-top: 100px;">
+        <div class="footer1">
+          <img src="../Images/woodpulp_white.png" style="height: 100px;width: 200px;">
+          <p> Woodpulp, an Initiative by a team of experienced engineers to serve woodworkers with world class products putting every sense of technicially into manufactoring.</p>
+          <div class="footer-logos">
+            <p>Follow Us:
+            <a href="https://www.linkedin.com/company/wood-pulp/about/" style="text-decoration: none;color: white;margin-left: 20px;" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/woodpulp_panel/" style="text-decoration: none;color: white;margin-left: 20px;" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://x.com/i/flow/login?redirect_after_login=%2Fwoodpulp_panel" style="text-decoration: none;color: white;margin-left: 20px;" target="_blank"><i class="fa fa-twitter"></i></a>
+          </p>
+          </div>
+        </div>
+        <div class="footer2">
+          <h2>Useful Links</h2>
+          <p style="color: white;height: 20px;font-weight: 700;margin-top:-30px; ;">________</p>
+          <p class="footer2i"><i class="fa fa-caret-right "></i>&nbsp;&nbsp;&nbsp;&nbsp;Company Profile<br></p>
+          <p class="footer2i"><i class="fa fa-caret-right "></i>&nbsp;&nbsp;&nbsp;&nbsp;Technical Property<br></p>
+          <p class="footer2i"><i class="fa fa-caret-right "></i>&nbsp;&nbsp;&nbsp;&nbsp;Contact Us</p>
+        </div>
+        <div class="footer3">
+          <h2>Our Products</h2>
+          <p style="color: white;height: 20px;font-weight: 700;margin-top:-30px; ;">________</p>
+          <p class="footer3i"><i class="fa fa-caret-right footer3i"></i>&nbsp;&nbsp;&nbsp;&nbsp;Evolve Seris<br></p>
+          <p class="footer3i"><i class="fa fa-caret-right footer3i"></i>&nbsp;&nbsp;&nbsp;&nbsp;Classic Seris</p>
+        </div>
+        <div class="footer4">
+          <h2>Contact Us</h2>
+          <p style="color: white;height: 20px;font-weight: 700;margin-top:-30px; ;">________</p>
+          <div class="address1">
+            <i class="fa fa-map-marker" style="color: orange;"></i>
+            <p>Survey No. 133/3, Mahendragadh Road, Near Pipaliya Cross Road, Navlakhi Highway, At: Pipaliya- 363660 , Dist.: Morbi, Gujarat.</p>
+          </div>
+          <div class="address2">
+            <i class="fa fa-phone" style="color: orange;"></i>
+            <p>+91 93757 70770<br>info@woodpulp.co.in</p>
+          </div>
+          <div class="address3">
+            <i class="fa fa-clock-o" style="color: orange;"></i>
+            <p>working Hours<br>09:00 am to 5:00 pm</p>
+          </div>
+  
+        </div>
+      </div>
+      <div class="final-footer"><p>Copyrights 2025. All Rights are Reserved by <span style="color: rgb(71, 48, 4);"> WoodPulp</span></p></div>
+</body>
+</html>

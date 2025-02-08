@@ -33,3 +33,19 @@ var slideIndex = 1;
                 clickable: true,
             },
         });
+
+        window.onscroll = function() { scrollFunction() };
+
+function scrollFunction() {
+  let topBtn = document.getElementById("topBtn");
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    topBtn.style.display = "block";
+  } else {
+    topBtn.style.display = "none";
+  }
+}
+
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+  

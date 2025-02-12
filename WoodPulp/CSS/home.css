@@ -584,6 +584,60 @@
     justify-content: space-evenly;
     margin-top: 50px;
 }
+.prop-table{
+    margin-top: 100px;
+    width: 100%;
+    align-items: center;
+    font-size: 25px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    height: 800px;
+}
+
+.prop-table td, .prop-table tr {
+    border: 1px solid black;
+    height: 100px;
+}
+.prop-table tr{
+    text-align: center;
+}
+.contact_{
+    display: flex;
+    justify-content: space-between;
+}
+.table_form{
+    border-collapse: collapse;
+        width: 50%;
+        border: 1px solid black;
+        margin: 20px auto; /* Centers the table */
+        height: 200px;
+        background-color: #f9f9f9; /* Light background */
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+        border-radius: 10px; /* Rounded corners */
+        overflow: hidden;
+}
+.table_form th{
+    padding: 15px; /* Adds space inside cells */
+        font-size: 20px; /* Slightly smaller than 30px for balance */
+        font-family: Arial, sans-serif;
+}
+.table_form tr td input[type="submit"]{
+        background-color: #d1aa0d;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+}
+.table_form tr td input[type="submit"]:hover{
+    background-color: #ef9415;
+}
+.contact_ad{
+    display: flex;
+    justify-content: space-between;
+}
 /* --------------------------------------------Media-Query-------------------------------------------- */
 @media only screen and (max-width:430px){
         .phone{

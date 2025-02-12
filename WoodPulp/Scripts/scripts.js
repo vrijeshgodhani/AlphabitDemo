@@ -49,3 +49,37 @@ function scrollToTop() {
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
   
+
+
+function validation(){
+  var mid = document.registering.member_name.value;
+			if(mid == "")
+			{
+				document.getElementById("username_validation").innerHTML="* Enter UserName";
+				return false;
+			}
+			else
+			{
+				document.getElementById("username_validation").innerHTML="";
+			}
+			var pass=document.registering.txt_pass.value;
+			if(pass=="")
+			{
+				document.getElementById("pass_valid").innerHTML="* Enter Password";
+				return false;
+			}
+			else
+			{
+				document.getElementById("pass_valid").innerHTML="";
+			}
+			var mail=document.registering.txt_mail.value;
+			if(mail=="")
+			{
+				document.getElementById("mail_valid").innerHTML="* Enter Email Address";
+				return false;
+			}
+			else
+			{
+				document.getElementById("mail_valid").innerHTML="";
+			}
+}
